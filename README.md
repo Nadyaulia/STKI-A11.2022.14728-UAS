@@ -11,16 +11,16 @@ Kelas: A11.4701
 
 2. Ringkasan dan Permasalahan Project
 
-Ringkasan:
+-** Ringkasan:**
 Proyek ini bertujuan untuk mendeteksi email spam menggunakan teknik pemrosesan teks dan machine learning. Dataset yang digunakan terdiri dari pesan email yang diberi label sebagai "ham" (bukan spam) atau "spam". Teknik seperti eksplorasi data, ekstraksi fitur, dan pembelajaran mesin digunakan untuk membangun model deteksi yang akurat.
 
-Permasalahan:
+-** Permasalahan:**
 
 Bagaimana cara memproses data teks untuk menghasilkan fitur yang relevan?
 
 Model pembelajaran mesin apa yang dapat memberikan akurasi terbaik?
 
-Tujuan:
+-** Tujuan:**
 
 Mengidentifikasi email spam dengan akurasi tinggi.
 
@@ -28,7 +28,7 @@ Mengoptimalkan proses ekstraksi fitur menggunakan metode TF-IDF.
 
 Mengukur performa model menggunakan metrik evaluasi seperti akurasi dan confusion matrix.
 
-Alur Penyelesaian (Bagan):
+- **Alur Penyelesaian (Bagan):**
 
 Memuat Dataset
 
@@ -42,9 +42,9 @@ Evaluasi dan Interpretasi Hasil
 
 3. Penjelasan Dataset, EDA, dan Proses Features Dataset
 
-Dataset:
+- **Dataset:**
 
-Sumber data: File CSV bernama datasetemail.csv.
+Sumber data: Sumber Kaagle File CSV bernama datasetemail.csv.
 
 Kolom penting:
 
@@ -52,13 +52,13 @@ v1: Label (ham/spam).
 
 v2: Teks email.
 
-EDA (Exploratory Data Analysis):
+- **EDA (Exploratory Data Analysis):**
 
 Dataset memiliki dua kategori: ham dan spam.
 
 Analisis distribusi data menunjukkan bahwa kategori "ham" lebih dominan.
 
-Proses Features Dataset:
+-** Proses Features Dataset:**
 
 Membersihkan data:
 
@@ -87,8 +87,6 @@ Melatih model Logistic Regression pada data latih.
 Menguji model pada data uji.
 
 5. Performa Model
-
-Akurasi: xx% (hasil akan disesuaikan setelah evaluasi dijalankan).
 
 Confusion Matrix:
 
